@@ -1,0 +1,156 @@
+body{
+  font-family: 'Quicksand', sans-serif !important;
+}
+h1, h2, h3, h4, span{
+  color:#1ACCAB!important;
+}
+h2, h3{
+   padding-top: 10% !important;
+   font-size: 50px !important;
+   font-weight: 500 !important;
+}
+a{
+  text-decoration: none;
+  color:#1ACCAB!important
+  
+}
+b{
+  color:#107F6A;
+}
+
+/*Vert : #107F6A
+Cyan : #6DFFE4
+Vert-bleu : #1ACCAB*/
+/********************** VINCENT*/
+#accueil{
+   width:100%;
+   height:750px;
+   background-image: url('../img/bu.jpg');
+/ *background-color:green;*/
+}
+.logo{
+   /*width:150px;
+   height:50px;*/
+   margin-right:-170%;
+}
+/*H1*/
+h1{
+   z-index:1000;
+   margin-left:50%;
+   font-weight:bold;
+   font-size:50px;
+}
+/*NAVBAR*/
+.navbar{
+   width:100%;
+   height:auto;
+   z-index:1000;
+   position:absolute;
+   font-size:20px;
+   margin:0;
+   padding:0;
+}
+a{
+
+  text-decoration:none!important;
+}
+nav a:hover{
+   color:#1ACCAB!important;
+}
+/*buttons*/
+.OK{
+   background-color:#107F6A;
+   margin-left:-5%!important;
+   -webkit-border-radius: 30px 30px 30px 30px;
+	border-radius: 30px 30px 30px 30px;
+}
+.OK:hover{
+   background-color:white;
+   color:#1ACCAB!important;
+}
+.card-header{
+   background-color: #107F6A;
+}
+
+
+
+
+/********************** HEADER*/
+header{
+	width: inherit;
+/*	height: 600px;*/
+	/*background-color: #6DFFE4;*/
+	margin: 0;
+}
+.head_banner{
+	background-image: url('../img/femmes-battues.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.headerEvent{
+	padding-left: 15%;
+	padding-top: 15%;
+}
+.label{
+	padding-top: 5%;
+}
+
+.container{
+	max-width: 100% !important;
+}
+
+/******************************* MAIN BODY*/
+/************* INFOS*/
+a.active, button{
+  color: white !important;
+  background-color: #1ACCAB!important;
+}
+.whatFor{
+  background-color: #F5F5F5;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.infos{
+	min-height: 700px;
+}
+#myDIV_1 {
+  width: 100%;
+  margin-left: 10%;
+  padding: 50px 0;
+  text-align: center;
+  /*background-color: lightblue;*/
+  margin-top: 20px;
+}
+#myDIV_2 {
+  width: 100%;
+  margin-left: 10%;
+  padding: 50px 0;
+  text-align: center;
+  /*background-color: lightblue;*/
+  margin-top: 20px;
+}
+
+/************* TRAVAUX*/
+.card{
+  border-style: none !important;
+}
+.card img{
+  max-width: 100px;
+  max-height: 100px;
+  color:#1ACCAB;
+}
+.working{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+   /*FOOTER*/
+/*copyright*/
+.copyright{
+    height:50px;
+    background-color:#107F6A;
+}
+.BGcolorWhiteGrey{
+  min-height: 500px;
+  background-color: #F5F5F5;
+}
